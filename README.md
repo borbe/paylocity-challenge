@@ -1,4 +1,4 @@
-# Paylocity Challenge`(paylocity-test-challenge)`
+# Paylocity Challenge`(paylocity-challenge)`
 *Created by Jorge Lopez*
 
 ### Table of contents

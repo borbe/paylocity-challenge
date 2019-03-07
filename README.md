@@ -10,6 +10,10 @@
 ## Installation
 All the dependencies are managed by npm.
 to install all required modules listed in the ./package.json file, run the following command: `npm install`
+The Paylocity Benefits Dashboard page will be then installed as it is contained in the following repository:
+https://github.com/borbe/paylocity-challenge-resources
+This will enable the page to work on a local environment without having to grab the files from other sources.
+
 
 ## Setting environment variables:
 All the test scripts provided in this suite are dependent on the environment variables set in the `./env/test.env`.
@@ -18,6 +22,7 @@ All the instructions and details related to each of the variables needed in the 
 The value for each of these environment variables must be manually entered before executing the tests.
 Test Execution Config is managed by the file: `protractor-grid.conf.js`.
 (this file is located in https://github.com/borbe/paylocity-test-fwk, ./node_modules/paylocity-test-fwk/)
+This repository contains the core framework and configuration as well as generic reusable action step definitions.
 
 By default, if you do not include `BROWSER`, the framework will use chrome as the default browser.
 

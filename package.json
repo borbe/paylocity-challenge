@@ -1,0 +1,20 @@
+{
+  "name": "paylocity-test-challenge",
+  "version": "1.0.0",
+  "description": "Paylocity Challenge",
+  "author": "Jorge Lopez",
+  "scripts": {
+    "eslint": "sh ./scripts/eslint.sh"
+  },
+  "pre-commit": [
+    "eslint"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "paylocity-test-fwk": "git://github.com/borbe/paylocity-test-fwk.git",
+    "paylocity-challenge-resources": "git://github.com/borbe/paylocity-challenge-resources.git",
+    "grunt": "1.0.3",
+    "grunt-exec": "3.0.0",
+    "grunt-protractor-runner": "5.0.0"
+  }
+}

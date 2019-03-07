@@ -215,7 +215,7 @@ Add employee form should not allow long strings.
 5. Refresh the browser page.
 
 ###### Actual Result:
-All employees should persist in the table.
+All employees are deleted from the table.
 
 ###### Expected Result:
-All employees are deleted from the table.
+All employees should persist in the table after refreshing the page.
